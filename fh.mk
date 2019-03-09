@@ -16,14 +16,14 @@
 $(call inherit-product, device/google/seed/full_seed.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 TARGET_OTA_ASSERT_DEVICE := ctih220_sprout,gm4g_sprout,gm4g_s_sprout,imobileiq2_sprout,seed
 
-PRODUCT_NAME := lineage_seed
+PRODUCT_NAME := fh_seed
 PRODUCT_DEVICE := seed
 PRODUCT_BRAND := google
 PRODUCT_MANUFACTURER := google
